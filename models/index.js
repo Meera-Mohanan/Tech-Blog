@@ -1,6 +1,6 @@
 const post = require('./post');
 const user = require('./user');
-const comment = require('./comment');
+const comment = require('./comments');
 
 
 // create associations
