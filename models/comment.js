@@ -26,7 +26,6 @@ comment.init(
                 len: [1]
             }
         },
-
         user_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
@@ -48,7 +47,7 @@ comment.init(
             allowNull: false,
             defaultValue: DataTypes.NOW,
         }
-    }, 
+    },
     {
         sequelize,
         timestamps: false,
