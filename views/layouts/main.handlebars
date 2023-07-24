@@ -13,10 +13,11 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <nav>
-                <h1>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div id="navbarBasicExample" class="navbar-menu">
+         <div class="navbar-start">
+                    <h1>
                     <a href="/">Home</a>
                     {{#if loggedIn}}
                     <a href="/dashboard">Dashboard</a>
@@ -28,10 +29,11 @@
                     {{else}}
                     <a href="/login">Login</a>
                     {{/if}}
+                     <a class="navbar-item">
                     <a href="/" class="logo">Techno-Blogger</a>
+                    </a>
                 </h1>
-            </nav>
-        </header>
+             </nav>
         <main>
             {{{ body }}}
         </main>

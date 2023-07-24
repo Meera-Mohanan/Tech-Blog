@@ -21,15 +21,15 @@
   .logo{
     margin-left: 400px;
     font-size: 40px;
-    color:darkmagenta;
+    color:#225ca3;
   }
 
   a:hover {
-    color: #3486eb;
+    color: #74b3f1;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #2b3035;
     border: 0;
     padding: 1%;
     color: white;
@@ -40,7 +40,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #051121;
   }
   
   .post-list {
@@ -56,7 +56,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #061220;
   }
 
   input {
@@ -75,15 +75,15 @@
   form label {
     display: block;
   }
-  
-  .wrapper {
+/*   
+  .navbar-brand {
+    background-color: #ccc;
     width: 100%;
     min-height: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-  }
+  } */
   
   header {
     border-bottom: 1px solid #ccc;
