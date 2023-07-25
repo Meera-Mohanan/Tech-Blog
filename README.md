@@ -28,8 +28,9 @@ This Application uses Model-View-Controller(MVC) paradigm to create a blog-style
 15. Run command source node seeds/index.js.
 16. The application will be invoked by using the following command: node server.js.This will start localhost server on PORT 3000.
 Open browser and type http://localhost:3000 to run this application on your local machine.
-17. This application is also deployed in heroku and can be accesed using following url 
-  ## Usage
+17. This application is also deployed in heroku and can be accesed using following url https://tech-blog-app-heroku-c5bd3b7b367a.herokuapp.com/
+
+## Usage
 1. App will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 2. When user visits the site for the first time presented with the homepage, which includes existing blog posts if any have been posted, navigation links for the homepage and the dashboard and the option to log in.
 3. When click on any other links in the navigation then prompted to either sign up or login.
@@ -48,12 +49,19 @@ Open browser and type http://localhost:3000 to run this application on your loca
   ## License
 
   This application is licensed under : MIT License
+
   ## Contributing
   Meera Mohanan
+
   ## Tests
   npm test
+
   ## Screenshots
+  ![Alt text](image.png)
+
   ## URL
+  The URL of the Deployed Heroku : https://tech-blog-app-heroku-c5bd3b7b367a.herokuapp.com/
+  The URL of the GitHub repository :https://github.com/Meera-Mohanan/Tech-Blog
   ## Questions
   GitHub Username : Meera-Mohanan
   GitHub profile : https://github.com/Meera-Mohanan
