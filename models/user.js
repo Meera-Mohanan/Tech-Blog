@@ -37,7 +37,10 @@ user.init(
           allowNull: false,
           validate: {
             // this means the password must be at least eight characters long
-            len: [8]
+            len: {
+              args: [8, 8], // Exactly 8 characters
+              msg: 'Password should be exactly 8 characters long',
+            },
           }
         }
       },
